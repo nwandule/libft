@@ -6,13 +6,13 @@
 /*   By: akalombo <akalombo@42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2019/04/18 10:11:04 by akalombo          #+#    #+#             */
-/*   Updated: 2019/04/18 10:50:35 by akalombo         ###   ########.fr       */
+/*   Updated: 2019/04/20 18:02:27 by akalombo         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *           ft_strmap(char const *s, char (*f)(char))
+char *           ft_strmap(char const *s, char (*f)(char ch))
 {
     unsigned int count;
     char* fresh;
